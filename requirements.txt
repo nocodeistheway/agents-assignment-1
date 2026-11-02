@@ -1,0 +1,35 @@
+# Core CrewAI
+crewai[google-genai]>=0.28.0
+crewai-tools>=0.1.0
+
+# Vector Store
+chromadb>=0.4.0
+
+# PDF Processing
+pymupdf>=1.23.0
+
+# Embeddings - OpenAI
+openai>=1.0.0
+tiktoken>=0.5.0
+
+# Embeddings - Gemini (alternative)
+google-generativeai>=0.3.0
+
+# Configuration
+python-dotenv>=1.0.0
+
+# HTTP & Data
+requests>=2.31.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# CLI & Display
+rich>=13.0.0
+typer>=0.9.0
+
+# Progress bars
+tqdm>=4.66.0
+
+# Development & Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0

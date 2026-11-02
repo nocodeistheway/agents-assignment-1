@@ -1,0 +1,44 @@
+# Instructor solutions (DO NOT DISTRIBUTE)
+solutions/
+
+# Environment
+.env
+.venv/
+venv/
+*.egg-info/
+
+# Conda
+.conda/
+
+# Vector store (built locally)
+data/vectorstore/*
+!data/vectorstore/.gitkeep
+
+# Processed cache
+data/processed/*
+!data/processed/.gitkeep
+
+# PDF papers (included in repo for student convenience)
+
+# Outputs
+outputs/*
+!outputs/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

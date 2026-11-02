@@ -1,0 +1,192 @@
+{
+  "queries": [
+    {
+      "id": "def_01",
+      "category": "definitional",
+      "query": "What is an intelligent agent?",
+      "expected_papers": ["wooldridge_1995", "wang_2023_survey"],
+      "expected_concepts": ["autonomy", "reactivity", "proactivity", "social ability"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "def_02",
+      "category": "definitional",
+      "query": "What are the four properties that define an intelligent agent?",
+      "expected_papers": ["wooldridge_1995"],
+      "expected_concepts": ["autonomy", "social ability", "reactivity", "proactivity"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "def_03",
+      "category": "definitional",
+      "query": "What is the difference between reactive and proactive behavior in agents?",
+      "expected_papers": ["wooldridge_1995", "xi_2023_survey"],
+      "expected_concepts": ["reactive", "proactive", "environment", "goals"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "def_04",
+      "category": "definitional",
+      "query": "Define autonomy in the context of AI agents",
+      "expected_papers": ["wooldridge_1995", "wang_2023_survey"],
+      "expected_concepts": ["autonomy", "independent", "control", "human intervention"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "def_05",
+      "category": "definitional",
+      "query": "What are the main components of an LLM-based agent architecture?",
+      "expected_papers": ["wang_2023_survey", "xi_2023_survey"],
+      "expected_concepts": ["memory", "planning", "action", "profile"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "reason_01",
+      "category": "reasoning",
+      "query": "How does ReAct combine reasoning and acting?",
+      "expected_papers": ["react_2023"],
+      "expected_concepts": ["reasoning traces", "actions", "interleaved", "synergy"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "reason_02",
+      "category": "reasoning",
+      "query": "What is chain-of-thought prompting?",
+      "expected_papers": ["cot_2022"],
+      "expected_concepts": ["chain-of-thought", "reasoning steps", "intermediate", "prompting"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "reason_03",
+      "category": "reasoning",
+      "query": "How does tree of thoughts differ from chain of thought?",
+      "expected_papers": ["tot_2023", "cot_2022"],
+      "expected_concepts": ["tree", "exploration", "backtracking", "search"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "reason_04",
+      "category": "reasoning",
+      "query": "How does Reflexion enable learning from mistakes?",
+      "expected_papers": ["reflexion_2023"],
+      "expected_concepts": ["reflection", "verbal", "memory", "self-improvement"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "reason_05",
+      "category": "reasoning",
+      "query": "What are reasoning traces in language model agents?",
+      "expected_papers": ["react_2023", "cot_2022"],
+      "expected_concepts": ["reasoning", "traces", "intermediate steps", "thought"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "multi_01",
+      "category": "multi_agent",
+      "query": "How do agents communicate in the CAMEL framework?",
+      "expected_papers": ["camel_2023"],
+      "expected_concepts": ["role-playing", "inception prompting", "conversation", "cooperation"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "multi_02",
+      "category": "multi_agent",
+      "query": "How do generative agents simulate human behavior?",
+      "expected_papers": ["generative_agents_2023"],
+      "expected_concepts": ["memory", "reflection", "planning", "behavior"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "multi_03",
+      "category": "multi_agent",
+      "query": "What is role-playing in multi-agent systems?",
+      "expected_papers": ["camel_2023", "autogen_2023"],
+      "expected_concepts": ["role", "agent", "conversation", "task"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "multi_04",
+      "category": "multi_agent",
+      "query": "How does AutoGen enable multi-agent conversation?",
+      "expected_papers": ["autogen_2023"],
+      "expected_concepts": ["conversation", "multi-agent", "customizable", "LLM"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "tool_01",
+      "category": "tool_use",
+      "query": "How does Toolformer learn to use tools?",
+      "expected_papers": ["toolformer_2023"],
+      "expected_concepts": ["self-supervised", "API", "tools", "learning"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "tool_02",
+      "category": "tool_use",
+      "query": "What is retrieval-augmented generation?",
+      "expected_papers": ["rag_2020", "rag_survey_2023"],
+      "expected_concepts": ["retrieval", "generation", "knowledge", "external"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "tool_03",
+      "category": "tool_use",
+      "query": "How do agents decide which tool to use?",
+      "expected_papers": ["toolformer_2023", "react_2023"],
+      "expected_concepts": ["tool", "decision", "action", "API"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "plan_01",
+      "category": "planning_safety",
+      "query": "Can LLMs perform classical planning?",
+      "expected_papers": ["planning_2023"],
+      "expected_concepts": ["planning", "LLM", "limitations", "benchmark"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "plan_02",
+      "category": "planning_safety",
+      "query": "What are the limitations of LLM planning abilities?",
+      "expected_papers": ["planning_2023"],
+      "expected_concepts": ["limitations", "planning", "autonomous", "heuristic"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "plan_03",
+      "category": "planning_safety",
+      "query": "What is constitutional AI?",
+      "expected_papers": ["constitutional_ai_2022"],
+      "expected_concepts": ["constitutional", "harmlessness", "AI feedback", "RLAIF"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "cross_01",
+      "category": "cross_cutting",
+      "query": "How can agents learn from feedback without updating weights?",
+      "expected_papers": ["reflexion_2023", "constitutional_ai_2022"],
+      "expected_concepts": ["feedback", "verbal", "reinforcement", "self-improvement"],
+      "difficulty": "hard"
+    },
+    {
+      "id": "cross_02",
+      "category": "cross_cutting",
+      "query": "What is the role of memory in agent architectures?",
+      "expected_papers": ["generative_agents_2023", "wang_2023_survey", "reflexion_2023"],
+      "expected_concepts": ["memory", "episodic", "reflection", "retrieval"],
+      "difficulty": "medium"
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "total_queries": 22,
+    "categories": {
+      "definitional": 5,
+      "reasoning": 5,
+      "multi_agent": 4,
+      "tool_use": 3,
+      "planning_safety": 3,
+      "cross_cutting": 2
+    }
+  }
+}
