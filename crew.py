@@ -1,22 +1,26 @@
 """
 Research Crew Configuration
 
-TODO: Configure and run the Research & Report Crew.
-
-This module should:
-1. Import your agents from the agents module
-2. Create tasks using create_research_tasks()
-3. Configure a Crew with sequential process
-4. Provide a run_research() function to execute the crew
+Wires the four agents and their tasks into a sequential crew and exposes
+run_research() to execute it.
 """
 
 # Load environment variables BEFORE importing crewai
 from dotenv import load_dotenv
 load_dotenv()
 
+import time
+
 from crewai import Crew, Process
 from agents import query_expander, source_hunter, synthesizer, report_writer
 from tasks.task_definitions import create_research_tasks
+from citations import finalize_report
+
+# Hosted LLMs return temporary overload/rate-limit errors (e.g. Gemini 503/429).
+# Retry the whole run a few times with a growing delay instead of failing.
+TRANSIENT_ERRORS = ("503", "UNAVAILABLE", "429", "RESOURCE_EXHAUSTED", "overloaded")
+MAX_ATTEMPTS = 5
+BACKOFF_SECONDS = 45
 
 
 def create_research_crew(research_question: str) -> Crew:
@@ -28,26 +32,18 @@ def create_research_crew(research_question: str) -> Crew:
 
     Returns:
         Configured Crew ready to execute
-
-    TODO: Implement this function
     """
+    tasks = create_research_tasks(research_question)
 
-    # TODO: Create tasks for the research question
-    # tasks = create_research_tasks(research_question)
-
-    # TODO: Create and configure the Crew
-    # crew = Crew(
-    #     agents=[query_expander, source_hunter, synthesizer, report_writer],
-    #     tasks=tasks,
-    #     process=Process.sequential,
-    #     verbose=True,
-    #     memory=True,
-    # )
-    # return crew
-
-    # Placeholder - replace with your implementation
-    raise NotImplementedError(
-        "TODO: Implement create_research_crew() in crew.py"
+    return Crew(
+        agents=[query_expander, source_hunter, synthesizer, report_writer],
+        tasks=tasks,
+        process=Process.sequential,
+        verbose=True,
+        # memory is off: CrewAI memory defaults to OpenAI embeddings, which
+        # this setup (Gemini) does not configure; context passing between
+        # tasks already carries what each agent needs.
+        memory=False,
     )
 
 
@@ -60,18 +56,24 @@ def run_research(research_question: str) -> str:
 
     Returns:
         The final literature review as a string
-
-    TODO: Implement this function
     """
-    # TODO: Create the crew and run it
-    # crew = create_research_crew(research_question)
-    # result = crew.kickoff()
-    # return str(result)
-
-    # Placeholder - replace with your implementation
-    raise NotImplementedError(
-        "TODO: Implement run_research() in crew.py"
-    )
+    for attempt in range(1, MAX_ATTEMPTS + 1):
+        try:
+            # Rebuild the crew each attempt so no half-finished state carries over.
+            crew = create_research_crew(research_question)
+            # Authors, years, and titles come from the paper index, not the LLM.
+            report, warnings = finalize_report(str(crew.kickoff()))
+            for w in warnings:
+                print(f"[citations] WARNING: {w}")
+            return report
+        except Exception as e:
+            transient = any(s in str(e) for s in TRANSIENT_ERRORS)
+            if not transient or attempt == MAX_ATTEMPTS:
+                raise
+            wait = BACKOFF_SECONDS * attempt
+            print(f"\n[crew] Transient LLM error ({str(e)[:80]}...). "
+                  f"Retrying in {wait}s (attempt {attempt}/{MAX_ATTEMPTS})\n")
+            time.sleep(wait)
 
 
 # Allow running crew.py directly for testing

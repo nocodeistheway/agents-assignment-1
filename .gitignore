@@ -23,6 +23,9 @@ data/processed/*
 # Outputs
 outputs/*
 !outputs/.gitkeep
+# Assignment deliverables: the two literature reviews and their run logs
+!outputs/report_*.md
+!outputs/logs/
 
 # Python
 __pycache__/
@@ -42,3 +45,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Keep the assignment's run logs (must come after the *.log rule above)
+!outputs/logs/*.log

@@ -1,0 +1,1374 @@
+Using example question: What are the main approaches to building AI agents that 
+can reason and act?
+
+
+
+╭─────────────────────────── Starting Research Crew ───────────────────────────╮
+│ Research Question:                                                           │
+│ What are the main approaches to building AI agents that can reason and act?  │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+
+Running research crew...
+
+This may take a few minutes. Watch the agent reasoning below.
+
+============================================================
+
+╭───────────────────────── 🚀 Crew Execution Started ──────────────────────────╮
+│                                                                              │
+│  Crew Execution Started                                                      │
+│  Name: crew                                                                  │
+│  ID: dd6dc47c-c998-418a-a05d-b126050d351a                                    │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────── 📋 Task Started ───────────────────────────────╮
+│                                                                              │
+│  Task Started                                                                │
+│  Name: Research question: "What are the main approaches to building AI       │
+│  agents that can reason and act?"                                            │
+│                                                                              │
+│  Plan the search for a literature review on this question. The searchable    │
+│  corpus is 15 academic papers on AI agents (agent theory, LLM reasoning,     │
+│  multi-agent systems, tool use and RAG, planning and safety).                │
+│                                                                              │
+│  Produce:                                                                    │
+│  1. 4-6 focused sub-questions that together cover the whole question.        │
+│  Include at least one definitional, one mechanism/how-it-works, one          │
+│  comparative, and one limitations/challenges sub-question.                   │
+│  2. For each sub-question: 4-6 search keywords or phrases written in the     │
+│  vocabulary academic papers would use, plus 1-2 synonyms or alternative      │
+│  phrasings.                                                                  │
+│  3. For each sub-question: the search angle, i.e. which kind of passage      │
+│  would answer it (definition, method description, experimental result,       │
+│  limitation, comparison).                                                    │
+│  4. A priority order: which sub-questions are most central.                  │
+│                                                                              │
+│  Do not answer the question. Output the plan only.                           │
+│  ID: ae341b90-fb65-40cf-b51e-be2801564acb                                    │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────── 🤖 Agent Started ──────────────────────────────╮
+│                                                                              │
+│  Agent: Research Query Strategist                                            │
+│                                                                              │
+│  Task: Research question: "What are the main approaches to building AI       │
+│  agents that can reason and act?"                                            │
+│                                                                              │
+│  Plan the search for a literature review on this question. The searchable    │
+│  corpus is 15 academic papers on AI agents (agent theory, LLM reasoning,     │
+│  multi-agent systems, tool use and RAG, planning and safety).                │
+│                                                                              │
+│  Produce:                                                                    │
+│  1. 4-6 focused sub-questions that together cover the whole question.        │
+│  Include at least one definitional, one mechanism/how-it-works, one          │
+│  comparative, and one limitations/challenges sub-question.                   │
+│  2. For each sub-question: 4-6 search keywords or phrases written in the     │
+│  vocabulary academic papers would use, plus 1-2 synonyms or alternative      │
+│  phrasings.                                                                  │
+│  3. For each sub-question: the search angle, i.e. which kind of passage      │
+│  would answer it (definition, method description, experimental result,       │
+│  limitation, comparison).                                                    │
+│  4. A priority order: which sub-questions are most central.                  │
+│                                                                              │
+│  Do not answer the question. Output the plan only.                           │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Using an approximate input token count for model 'gemini-3.8-flash': assuming one token per four characters because a native token count is unavailable.
+[35m[Finalize] todos_count=0, todos_with_results=0[0m
+╭─────────────────────────── ✅ Agent Final Answer ────────────────────────────╮
+│                                                                              │
+│  Agent: Research Query Strategist                                            │
+│                                                                              │
+│  Final Answer:                                                               │
+│  ### Systematic Search Plan: Architectural Approaches to Reasoning and       │
+│  Acting AI Agents                                                            │
+│                                                                              │
+│  1.                                                                          │
+│  - **Sub-question:** How are reasoning-and-acting agents formally defined,   │
+│  operationalized, and situated within modern cognitive architecture and      │
+│  foundation model theory?                                                    │
+│  - **Keywords:** autonomous agent paradigm, cognitive architecture,          │
+│  perception-action loop, goal-directed agency, foundation model agent,       │
+│  dual-process theory in AI                                                   │
+│  - **Synonyms:** LLM-based autonomous agent, agentic workflow formalization  │
+│  - **Search angle:** Definition                                              │
+│                                                                              │
+│  2.                                                                          │
+│  - **Sub-question:** What core mechanisms and prompting frameworks allow     │
+│  single-agent architectures to interleave reasoning traces with external     │
+│  tool execution and environmental feedback?                                  │
+│  - **Keywords:** interleaved reasoning and action, ReAct framework,          │
+│  external API orchestration, autonomous tool retrieval, verbal               │
+│  reinforcement, dynamic replanning                                           │
+│  - **Synonyms:** tool-augmented language models, self-reflective execution   │
+│  traces                                                                      │
+│  - **Search angle:** Method description                                      │
+│                                                                              │
+│  3.                                                                          │
+│  - **Sub-question:** What architectural patterns govern task decomposition,  │
+│  communication protocols, and consensus formation in collaborative           │
+│  multi-agent reasoning systems?                                              │
+│  - **Keywords:** multi-agent communication protocol, cooperative task        │
+│  decomposition, multi-agent debate, role-conditioned agent specialization,   │
+│  collective deliberation, agent society coordination                         │
+│  - **Synonyms:** distributed multi-agent orchestration, multi-agent          │
+│  consensus mechanisms                                                        │
+│  - **Search angle:** Method description                                      │
+│                                                                              │
+│  4.                                                                          │
+│  - **Sub-question:** How do deliberative, search-based planning approaches   │
+│  compare to purely reactive or single-pass prompting agents regarding task   │
+│  completion rate, compute cost, and sample efficiency?                       │
+│  - **Keywords:** tree-search planning versus reactive execution,             │
+│  decision-making benchmark evaluation, Tree of Thoughts comparative          │
+│  analysis, task success rate, inference-time compute scaling, cumulative     │
+│  latency overhead                                                            │
+│  - **Synonyms:** deliberative planning versus direct generation, agent       │
+│  trajectory performance comparison                                           │
+│  - **Search angle:** Comparison                                              │
+│                                                                              │
+│  5.                                                                          │
+│  - **Sub-question:** What fundamental failure modes, error propagation       │
+│  dynamics, and alignment risks constrain the operational reliability of      │
+│  reasoning-and-acting agents?                                                │
+│  - **Keywords:** compounding execution errors, hallucinated action           │
+│  trajectories, goal drift, context window saturation, ungrounded tool        │
+│  invocation, sandboxing and agent safety guardrails                          │
+│  - **Synonyms:** multi-step error cascading, agentic reliability             │
+│  bottlenecks                                                                 │
+│  - **Search angle:** Limitation                                              │
+│                                                                              │
+│  ---                                                                         │
+│                                                                              │
+│  **Priority Ordering:** Sub-question 2 > Sub-question 4 > Sub-question 3 >   │
+│  Sub-question 5 > Sub-question 1.                                            │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────── 📋 Task Completion ─────────────────────────────╮
+│                                                                              │
+│  Task Completed                                                              │
+│  Name: Research question: "What are the main approaches to building AI       │
+│  agents that can reason and act?"                                            │
+│                                                                              │
+│  Plan the search for a literature review on this question. The searchable    │
+│  corpus is 15 academic papers on AI agents (agent theory, LLM reasoning,     │
+│  multi-agent systems, tool use and RAG, planning and safety).                │
+│                                                                              │
+│  Produce:                                                                    │
+│  1. 4-6 focused sub-questions that together cover the whole question.        │
+│  Include at least one definitional, one mechanism/how-it-works, one          │
+│  comparative, and one limitations/challenges sub-question.                   │
+│  2. For each sub-question: 4-6 search keywords or phrases written in the     │
+│  vocabulary academic papers would use, plus 1-2 synonyms or alternative      │
+│  phrasings.                                                                  │
+│  3. For each sub-question: the search angle, i.e. which kind of passage      │
+│  would answer it (definition, method description, experimental result,       │
+│  limitation, comparison).                                                    │
+│  4. A priority order: which sub-questions are most central.                  │
+│                                                                              │
+│  Do not answer the question. Output the plan only.                           │
+│  Agent: Research Query Strategist                                            │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────── 📋 Task Started ───────────────────────────────╮
+│                                                                              │
+│  Task Started                                                                │
+│  Name: Research question: "What are the main approaches to building AI       │
+│  agents that can reason and act?"                                            │
+│                                                                              │
+│  Using the search plan from the previous task, search the paper corpus with  │
+│  the 'Search Research Papers' tool.                                          │
+│                                                                              │
+│  Rules:                                                                      │
+│  - Run at least one search per sub-question, and rephrase and re-search      │
+│  when the first results are weak or off-topic. Before each search state in   │
+│  a sentence what you still need and why; after each result state what you    │
+│  learned and what to search next.                                            │
+│  - Use k=5 to k=8 per search.                                                │
+│  - Collect 8-12 distinct, relevant passages in total, spread across at       │
+│  least 5 different papers where the corpus allows.                           │
+│  - Record each passage exactly as the tool returned it: the paper ID         │
+│  printed after 'Source:', the section, and a short verbatim excerpt (1-3     │
+│  sentences). Never invent, paraphrase into a quote, or add a source the      │
+│  tool did not return.                                                        │
+│  - If the corpus has no good evidence for a sub-question, say so explicitly  │
+│  instead of filling the gap.                                                 │
+│                                                                              │
+│  Valid paper IDs (for checking only; cite only what the tool returned):      │
+│  - Wooldridge & Jennings (1995) | ID: wooldridge_1995 | Title: Intelligent   │
+│  Agents: Theory and Practice                                                 │
+│  - Wang et al. (2023) | ID: wang_2023_survey | Title: A Survey on Large      │
+│  Language Model based Autonomous Agents                                      │
+│  - Xi et al. (2023) | ID: xi_2023_survey | Title: The Rise and Potential of  │
+│  Large Language Model Based Agents: A Survey                                 │
+│  - Yao et al. (2023) | ID: react_2023 | Title: ReAct: Synergizing Reasoning  │
+│  and Acting in Language Models                                               │
+│  - Wei et al. (2022) | ID: cot_2022 | Title: Chain-of-Thought Prompting      │
+│  Elicits Reasoning in Large Language Models                                  │
+│  - Yao et al. (2023) | ID: tot_2023 | Title: Tree of Thoughts: Deliberate    │
+│  Problem Solving with Large Language Models                                  │
+│  - Shinn et al. (2023) | ID: reflexion_2023 | Title: Reflexion: Language     │
+│  Agents with Verbal Reinforcement Learning                                   │
+│  - Li et al. (2023) | ID: camel_2023 | Title: CAMEL: Communicative Agents    │
+│  for Mind Exploration of Large Language Model Society                        │
+│  - Park et al. (2023) | ID: generative_agents_2023 | Title: Generative       │
+│  Agents: Interactive Simulacra of Human Behavior                             │
+│  - Wu et al. (2023) | ID: autogen_2023 | Title: AutoGen: Enabling Next-Gen   │
+│  LLM Applications via Multi-Agent Conversation                               │
+│  - Schick et al. (2023) | ID: toolformer_2023 | Title: Toolformer: Language  │
+│  Models Can Teach Themselves to Use Tools                                    │
+│  - Lewis et al. (2020) | ID: rag_2020 | Title: Retrieval-Augmented           │
+│  Generation for Knowledge-Intensive NLP Tasks                                │
+│  - Gao et al. (2023) | ID: rag_survey_2023 | Title: Retrieval-Augmented      │
+│  Generation for Large Language Models: A Survey                              │
+│  - Valmeekam et al. (2023) | ID: planning_2023 | Title: On the Planning      │
+│  Abilities of Large Language Models - A Critical Investigation               │
+│  - Bai et al. (2022) | ID: constitutional_ai_2022 | Title: Constitutional    │
+│  AI: Harmlessness from AI Feedback                                           │
+│  ID: f4136f07-78b7-4a1a-8761-51c37bd96079                                    │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────── 🤖 Agent Started ──────────────────────────────╮
+│                                                                              │
+│  Agent: Corpus Investigator                                                  │
+│                                                                              │
+│  Task: Research question: "What are the main approaches to building AI       │
+│  agents that can reason and act?"                                            │
+│                                                                              │
+│  Using the search plan from the previous task, search the paper corpus with  │
+│  the 'Search Research Papers' tool.                                          │
+│                                                                              │
+│  Rules:                                                                      │
+│  - Run at least one search per sub-question, and rephrase and re-search      │
+│  when the first results are weak or off-topic. Before each search state in   │
+│  a sentence what you still need and why; after each result state what you    │
+│  learned and what to search next.                                            │
+│  - Use k=5 to k=8 per search.                                                │
+│  - Collect 8-12 distinct, relevant passages in total, spread across at       │
+│  least 5 different papers where the corpus allows.                           │
+│  - Record each passage exactly as the tool returned it: the paper ID         │
+│  printed after 'Source:', the section, and a short verbatim excerpt (1-3     │
+│  sentences). Never invent, paraphrase into a quote, or add a source the      │
+│  tool did not return.                                                        │
+│  - If the corpus has no good evidence for a sub-question, say so explicitly  │
+│  instead of filling the gap.                                                 │
+│                                                                              │
+│  Valid paper IDs (for checking only; cite only what the tool returned):      │
+│  - Wooldridge & Jennings (1995) | ID: wooldridge_1995 | Title: Intelligent   │
+│  Agents: Theory and Practice                                                 │
+│  - Wang et al. (2023) | ID: wang_2023_survey | Title: A Survey on Large      │
+│  Language Model based Autonomous Agents                                      │
+│  - Xi et al. (2023) | ID: xi_2023_survey | Title: The Rise and Potential of  │
+│  Large Language Model Based Agents: A Survey                                 │
+│  - Yao et al. (2023) | ID: react_2023 | Title: ReAct: Synergizing Reasoning  │
+│  and Acting in Language Models                                               │
+│  - Wei et al. (2022) | ID: cot_2022 | Title: Chain-of-Thought Prompting      │
+│  Elicits Reasoning in Large Language Models                                  │
+│  - Yao et al. (2023) | ID: tot_2023 | Title: Tree of Thoughts: Deliberate    │
+│  Problem Solving with Large Language Models                                  │
+│  - Shinn et al. (2023) | ID: reflexion_2023 | Title: Reflexion: Language     │
+│  Agents with Verbal Reinforcement Learning                                   │
+│  - Li et al. (2023) | ID: camel_2023 | Title: CAMEL: Communicative Agents    │
+│  for Mind Exploration of Large Language Model Society                        │
+│  - Park et al. (2023) | ID: generative_agents_2023 | Title: Generative       │
+│  Agents: Interactive Simulacra of Human Behavior                             │
+│  - Wu et al. (2023) | ID: autogen_2023 | Title: AutoGen: Enabling Next-Gen   │
+│  LLM Applications via Multi-Agent Conversation                               │
+│  - Schick et al. (2023) | ID: toolformer_2023 | Title: Toolformer: Language  │
+│  Models Can Teach Themselves to Use Tools                                    │
+│  - Lewis et al. (2020) | ID: rag_2020 | Title: Retrieval-Augmented           │
+│  Generation for Knowledge-Intensive NLP Tasks                                │
+│  - Gao et al. (2023) | ID: rag_survey_2023 | Title: Retrieval-Augmented      │
+│  Generation for Large Language Models: A Survey                              │
+│  - Valmeekam et al. (2023) | ID: planning_2023 | Title: On the Planning      │
+│  Abilities of Large Language Models - A Critical Investigation               │
+│  - Bai et al. (2022) | ID: constitutional_ai_2022 | Title: Constitutional    │
+│  AI: Harmlessness from AI Feedback                                           │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+WARNING:crewai.llms.base_llm:Using an approximate input token count for model 'gemini-3.8-flash': assuming one token per four characters because a native token count is unavailable.
+╭─────────────────────── 🔧 Tool Execution Started (#1) ───────────────────────╮
+│                                                                              │
+│  Tool: search_research_papers                                                │
+│  Args: {'query': 'interleaving reasoning and acting ReAct framework dynamic  │
+│  reasoning traces external actions', 'k': 6}                                 │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+/Users/zacharytoddberger/ucla-agentic-ai/week1/tools/embeddings.py:168: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+╭────────────────────── ✅ Tool Execution Completed (#1) ──────────────────────╮
+│                                                                              │
+│  Tool Completed                                                              │
+│  Tool: search_research_papers                                                │
+│  Output: Found 6 relevant passages:                                          │
+│                                                                              │
+│  [1] Source: react_2023 | Section: Full Text | Relevance: 0.89               │
+│      Title: ReAct: Synergizing Reasoning and Acting in Language Models       │
+│      "[Paper: ReAct: Synergizing Reasoning and Acting in Language Models]    │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]                     │
+│                                                                              │
+│  maintaining a working memory (Baddeley, 1992). Consider the example of      │
+│  cooking up a dish in the kitchen. Between any two specific actions, we may  │
+│  reason in language in order to track progress (“now that everything is      │
+│  cut, I should heat up the pot of water”), to handle exceptions..."          │
+│                                                                              │
+│  [2] Source: react_2023 | Section: Full Text | Relevance: 0.89               │
+│      Title: ReAct: Synergizing Reasoning and Acting in Language Models       │
+│      "[Paper: ReAct: Synergizing Reasoning and Acting in Language Models]    │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]                     │
+│                                                                              │
+│  ������������� ���������������������������������������������������������� �  │
+│  �������������������������������������� � �������������������������          │
+│  ���������������������������������������������������� �                      │
+│  �������������������������� ��������������������������������������������     │
+│  ����������..."                                                              │
+│                                                                              │
+│  [3] Source: react_2023 | Section: Full Text | Relevance: 0.89               │
+│      Title: ReAct: Synergizing Reasoning and Acting in Language Models       │
+│      "[Paper: ReAct: Synergizing Reasoning and Acting in Language Models]    │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]                     │
+│                                                                              │
+│  importance of sparse, versatile reasoning in decision making by showing     │
+│  consistent advantages over controlled baselines with actions only. Besides  │
+│  general applicability and performance boost, the combination of reasoning   │
+│  and acting also contributes to model interpretability, tru..."              │
+│                                                                              │
+│  [4] Source: react_2023 | Section: Full Text | Relevance: 0.89               │
+│      Title: ReAct: Synergizing Reasoning and Acting in Language Models       │
+│      "[Paper: ReAct: Synergizing Reasoning and Acting in Language Models]    │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]                     │
+│                                                                              │
+│  Obs). answers from questions in arithmetic, commonsense, and symbolic       │
+│  reasoning tasks (Wei et al., 2022). However, this “chain-of-thought”        │
+│  reasoning is a static black box, in that the model uses its own internal    │
+│  representations to generate thoughts and is not grounded in the ext..."     │
+│                                                                              │
+│  [5] Source: react_2023 | Section: Full Text | Relevance: 0.89               │
+│      Title: ReAct: Synergizing Reasoning and Acting in Language Models       │
+│      "[Paper: ReAct: Synergizing Reasoning and Acting in Language Models]    │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]                     │
+│                                                                              │
+│  Published as a conference paper at ICLR 2023 REACT: SYNERGIZING REASONING   │
+│  AND ACTING IN LANGUAGE MODELS Shunyu Yao∗*,1, Jeffrey Zhao2, Dian Yu2, Nan  │
+│  Du2, Izhak Shafran2, Karthik Narasimhan1, Yuan Cao2 1Department of          │
+│  Computer Science, Princeton University 2Google Research, Brain ..."         │
+│                                                                              │
+│  [6] Source: react_2023 | Section: Full Text | Relevance: 0.88               │
+│      Title: ReAct: Synergizing Reasoning and Acting in Language Models       │
+│      "[Paper: ReAct: Synergizing Reasoning and Acting in Language Models]    │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]                     │
+│                                                                              │
+│  ������������������ � ����������� �����������������������������������������  │
+│  ������������������������������������������������������������                │
+│  ��������������������������������������                                      │
+│  ������������������������������������������������������                      │
+│  �������������������������������������������������..."                       │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+WARNING:crewai.llms.base_llm:Using an approximate input token count for model 'gemini-3.8-flash': assuming one token per four characters because a native token count is unavailable.
+╭─────────────────────── 🔧 Tool Execution Started (#2) ───────────────────────╮
+│                                                                              │
+│  Tool: search_research_papers                                                │
+│  Args: {'k': 6, 'query': 'Reflexion verbal reinforcement learning            │
+│  self-reflection episodic memory evaluation'}                                │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────── ✅ Tool Execution Completed (#2) ──────────────────────╮
+│                                                                              │
+│  Tool Completed                                                              │
+│  Tool: search_research_papers                                                │
+│  Output: Found 6 relevant passages:                                          │
+│                                                                              │
+│  [1] Source: reflexion_2023 | Section: Full Text | Relevance: 0.90           │
+│      Title: Reflexion: Language Agents with Verbal Reinforcement Learning    │
+│      "[Paper: Reflexion: Language Agents with Verbal Reinforcement           │
+│  Learning]                                                                   │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]  │
+│                                                                              │
+│  failings. Reflexion converts binary or scalar feedback from the             │
+│  environment into verbal feedback in the form of a textual summary, which    │
+│  is then added as additional context for the LLM agent in the next episode.  │
+│  This self-reflective feedback acts as a ‘semantic’ gradient signal by       │
+│  providing the agent with a concrete direction to i..."                      │
+│                                                                              │
+│  [2] Source: reflexion_2023 | Section: Full Text | Relevance: 0.89           │
+│      Title: Reflexion: Language Agents with Verbal Reinforcement Learning    │
+│      "[Paper: Reflexion: Language Agents with Verbal Reinforcement           │
+│  Learning]                                                                   │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]  │
+│                                                                              │
+│  �������������� ���������������������������������� ������������������ �����  │
+│  ��������������������������������� ������������������� Figure 1: Reflexion   │
+│  works on decision-making 4.1, programming 4.3, and reasoning 4.2 tasks.     │
+│  Related work on reasoning and decision-making Approach Self Hidden          │
+│  Decision Binary Memory refine constraints ma..."                            │
+│                                                                              │
+│  [3] Source: reflexion_2023 | Section: Full Text | Relevance: 0.89           │
+│      Title: Reflexion: Language Agents with Verbal Reinforcement Learning    │
+│      "[Paper: Reflexion: Language Agents with Verbal Reinforcement           │
+│  Learning]                                                                   │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]  │
+│                                                                              │
+│  spaces is difficult, so we investigate several variants of the Evaluator    │
+│  model. For reasoning tasks, we explore reward functions based on exact      │
+│  match (EM) grading, ensuring that the generated output aligns closely with  │
+│  the expected solution. In decision-making tasks, we employ pre-defined      │
+│  heuristic functions that are tailored to s..."                              │
+│                                                                              │
+│  [4] Source: reflexion_2023 | Section: Full Text | Relevance: 0.89           │
+│      Title: Reflexion: Language Agents with Verbal Reinforcement Learning    │
+│      "[Paper: Reflexion: Language Agents with Verbal Reinforcement           │
+│  Learning]                                                                   │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]  │
+│                                                                              │
+│  Heuristic) and (GPT) for binary classification. (b) Classification of       │
+│  AlfWorld trajectories by reason of failure. eliminates almost all of these  │
+│  cases by using self-reflection to distill long, failed trajectories into    │
+│  relevant experiences that can are used as "self-hints" in the future.       │
+│  There are two main cases in which long-term ..."                            │
+│                                                                              │
+│  [5] Source: reflexion_2023 | Section: Full Text | Relevance: 0.89           │
+│      Title: Reflexion: Language Agents with Verbal Reinforcement Learning    │
+│      "[Paper: Reflexion: Language Agents with Verbal Reinforcement           │
+│  Learning]                                                                   │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]  │
+│                                                                              │
+│  Noah Shinn Northeastern University noahshinn024@gmail.com                   │
+│  arXiv:2303.11366v4 [cs.AI] 10 Oct 2023 Edward Berman Northeastern           │
+│  University berman.ed@northeastern.edu Karthik Narasimhan Princeton          │
+│  University karthikn@princeton.edu 1 Introduction Preprint. Under review.    │
+│  Reflexion: Language Agents with Verbal Reinforcement Learning Federi..."    │
+│                                                                              │
+│  [6] Source: reflexion_2023 | Section: Full Text | Relevance: 0.88           │
+│      Title: Reflexion: Language Agents with Verbal Reinforcement Learning    │
+│      "[Paper: Reflexion: Language Agents with Verbal Reinforcement           │
+│  Learning]                                                                   │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]  │
+│                                                                              │
+│  and code writing tasks in competition-like environments with interpreters   │
+│  and compilers in HumanEval [6], MBPP [2], and LeetcodeHard, a new           │
+│  benchmark. Most notably, Reflexion improves performance over strong         │
+│  baselines by 22% in AlfWorld, 20% in HotPotQA, and 11% on HumanEval.        │
+│  AlfWorld is a suite of text-based environments that cha..."                 │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+WARNING:crewai.llms.base_llm:Using an approximate input token count for model 'gemini-3.8-flash': assuming one token per four characters because a native token count is unavailable.
+╭─────────────────────── 🔧 Tool Execution Started (#3) ───────────────────────╮
+│                                                                              │
+│  Tool: search_research_papers                                                │
+│  Args: {'query': 'Tree of Thoughts deliberate problem solving BFS DFS        │
+│  exploration Game of 24 success rate', 'k': 6}                               │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────── ✅ Tool Execution Completed (#3) ──────────────────────╮
+│                                                                              │
+│  Tool Completed                                                              │
+│  Tool: search_research_papers                                                │
+│  Output: Found 6 relevant passages:                                          │
+│                                                                              │
+│  [1] Source: tot_2023 | Section: Full Text | Relevance: 0.89                 │
+│      Title: Tree of Thoughts: Deliberate Problem Solving with Large          │
+│  Language Models                                                             │
+│      "[Paper: Tree of Thoughts: Deliberate Problem Solving with Large        │
+│  Language Models]                                                            │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]                      │
+│                                                                              │
+│  -41 with a sampling temperature of 0.7. ������������������                  │
+│  ���������������������������� �����������������                              │
+│  ���������������������������������� ������������������������� ��             │
+│  ������������������ ��������������������������� �������������������������    │
+│  ���������������� �� ������������������ ����������������������������         │
+│  �������������������������������..."                                         │
+│                                                                              │
+│  [2] Source: tot_2023 | Section: Full Text | Relevance: 0.89                 │
+│      Title: Tree of Thoughts: Deliberate Problem Solving with Large          │
+│  Language Models                                                             │
+│      "[Paper: Tree of Thoughts: Deliberate Problem Solving with Large        │
+│  Language Models]                                                            │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]                      │
+│                                                                              │
+│  the parent state of s to continue exploration. Conceptually, ToT has        │
+│  several benefits as a method for general problem-solving with LMs: (1)      │
+│  Generality. IO, CoT, CoT-SC, and self-refinement can be seen as special     │
+│  cases of ToT (i.e. trees of limited depth and breadth; Figure 1). (2)       │
+│  Modularity. The base LM, as well as the thought decompositio..."            │
+│                                                                              │
+│  [3] Source: tot_2023 | Section: Full Text | Relevance: 0.88                 │
+│      Title: Tree of Thoughts: Deliberate Problem Solving with Large          │
+│  Language Models                                                             │
+│      "[Paper: Tree of Thoughts: Deliberate Problem Solving with Large        │
+│  Language Models]                                                            │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]                      │
+│                                                                              │
+│  is open-ended and exploratory, and challenges creative thinking as well as  │
+│  high-level planning. Task setup. We sample random sentences from            │
+│  randomwordgenerator.com to form 100 inputs, and there is no groundtruth     │
+│  passage for each input constraint. As we find that GPT-4 can follow the     │
+│  input constraints most of the time, we focus on evaluating..."              │
+│                                                                              │
+│  [4] Source: tot_2023 | Section: Full Text | Relevance: 0.88                 │
+│      Title: Tree of Thoughts: Deliberate Problem Solving with Large          │
+│  Language Models                                                             │
+│      "[Paper: Tree of Thoughts: Deliberate Problem Solving with Large        │
+│  Language Models]                                                            │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]                      │
+│                                                                              │
+│  e.g. A* [11], MCTS [2]) for future work: 4 Experiments 4 learned (e.g.      │
+│  AlphaGo [29]). We propose a third alternative, by using the LM to           │
+│  deliberately reason about states. When applicable, such a deliberate        │
+│  heuristic can be more flexible than programmed rules, and more              │
+│  sample-efficient than learned models. Similar to the thought generator,     │
+│  w..."                                                                       │
+│                                                                              │
+│  [5] Source: tot_2023 | Section: Full Text | Relevance: 0.88                 │
+│      Title: Tree of Thoughts: Deliberate Problem Solving with Large          │
+│  Language Models                                                             │
+│      "[Paper: Tree of Thoughts: Deliberate Problem Solving with Large        │
+│  Language Models]                                                            │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]                      │
+│                                                                              │
+│  not incorporate any type of planning, lookahead, or backtracking to help    │
+│  evaluate these different options – the kind of heuristic-guided search      │
+│  that seems characteristic of human problem-solving. To address these        │
+│  shortcomings, we introduce Tree of Thoughts (ToT), a paradigm that allows   │
+│  LMs to explore multiple reasoning paths over thoughts (..."                 │
+│                                                                              │
+│  [6] Source: tot_2023 | Section: Full Text | Relevance: 0.88                 │
+│      Title: Tree of Thoughts: Deliberate Problem Solving with Large          │
+│  Language Models                                                             │
+│      "[Paper: Tree of Thoughts: Deliberate Problem Solving with Large        │
+│  Language Models]                                                            │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]                      │
+│                                                                              │
+│  been connected to a variety of mathematical models used in machine          │
+│  learning. For example, research on reinforcement learning in humans and     │
+│  other animals has explored the circumstances under which they engage in     │
+│  associative “model free” learning or more deliberative “model based”        │
+│  planning [7]. The simple associative token-level choices of LM..."          │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+WARNING:crewai.llms.base_llm:Using an approximate input token count for model 'gemini-3.8-flash': assuming one token per four characters because a native token count is unavailable.
+╭─────────────────────── 🔧 Tool Execution Started (#4) ───────────────────────╮
+│                                                                              │
+│  Tool: search_research_papers                                                │
+│  Args: {'query': 'planning abilities large language models critical          │
+│  investigation autonomous plan generation success rate Valmeekam', 'k': 6}   │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────── ✅ Tool Execution Completed (#4) ──────────────────────╮
+│                                                                              │
+│  Tool Completed                                                              │
+│  Tool: search_research_papers                                                │
+│  Output: Found 6 relevant passages:                                          │
+│                                                                              │
+│  [1] Source: planning_2023 | Section: Full Text | Relevance: 0.91            │
+│      Title: On the Planning Abilities of Large Language Models - A Critical  │
+│  Investigation                                                               │
+│      "[Paper: On the Planning Abilities of Large Language Models - A         │
+│  Critical Investigation]                                                     │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]                             │
+│                                                                              │
+│  Karthik Valmeekam School of Computing & AI Arizona State University,        │
+│  Tempe. kvalmeek@asu.edu arXiv:2302.06706v1 [cs.AI] 13 Feb 2023 Alberto      │
+│  Olmo School of Computing & AI Arizona State University, Tempe.              │
+│  aolmoher@asu.edu 1 Introduction ∗Author was at Arizona State Univ..."       │
+│                                                                              │
+│  [2] Source: planning_2023 | Section: Full Text | Relevance: 0.91            │
+│      Title: On the Planning Abilities of Large Language Models - A Critical  │
+│  Investigation                                                               │
+│      "[Paper: On the Planning Abilities of Large Language Models - A         │
+│  Critical Investigation]                                                     │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]                             │
+│                                                                              │
+│  showcase) reasoning abilities of LLMs–including commonsense reasoning [33,  │
+│  27, 10], logical reasoning [31], and even ethical reasoning [16]. The       │
+│  macro-tenor of the drumbeat of these works has been suggesting that LLM’s   │
+│  are indeed capable of doing such kinds of reasoni..."                       │
+│                                                                              │
+│  [3] Source: planning_2023 | Section: Full Text | Relevance: 0.90            │
+│      Title: On the Planning Abilities of Large Language Models - A Critical  │
+│  Investigation                                                               │
+│      "[Paper: On the Planning Abilities of Large Language Models - A         │
+│  Critical Investigation]                                                     │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]                             │
+│                                                                              │
+│  especially likely because the chief power of LLMs comes from their pattern  │
+│  finding abilities than on first-principles simulations over world models.   │
+│  Compared to a planner that is guaranteed to be correct in a narrow set of   │
+│  domains, LLMs may likely be good at generatin..."                           │
+│                                                                              │
+│  [4] Source: planning_2023 | Section: Full Text | Relevance: 0.90            │
+│      Title: On the Planning Abilities of Large Language Models - A Critical  │
+│  Investigation                                                               │
+│      "[Paper: On the Planning Abilities of Large Language Models - A         │
+│  Critical Investigation]                                                     │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]                             │
+│                                                                              │
+│  on pattern matching (rather than inducing some internal model from the      │
+│  prompts). We would like to point the reader to the appendix for additional  │
+│  experiments (including fine-tuning and domain disguising). Overall, the     │
+│  performance of these LLMs on our benchmark shows t..."                      │
+│                                                                              │
+│  [5] Source: planning_2023 | Section: Full Text | Relevance: 0.90            │
+│      Title: On the Planning Abilities of Large Language Models - A Critical  │
+│  Investigation                                                               │
+│      "[Paper: On the Planning Abilities of Large Language Models - A         │
+│  Critical Investigation]                                                     │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]                             │
+│                                                                              │
+│  Large Open-science Open-access Multilingual Language Model. https://        │
+│  huggingface.co/bigscience/bloom, 2022. [29] Tom Silver, Varun Hariprasad,   │
+│  Reece S Shuttleworth, Nishanth Kumar, Tomás Lozano-Pérez, and Leslie Pack   │
+│  Kaelbling. PDDL planning with pretrained large lang..."                     │
+│                                                                              │
+│  [6] Source: planning_2023 | Section: Full Text | Relevance: 0.90            │
+│      Title: On the Planning Abilities of Large Language Models - A Critical  │
+│  Investigation                                                               │
+│      "[Paper: On the Planning Abilities of Large Language Models - A         │
+│  Critical Investigation]                                                     │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]                             │
+│                                                                              │
+│  held at the end of that prefix. We then change the resulting state by       │
+│  stacking the held block onto another random block which is clear and make   │
+│  the hand empty. This change is reported and the LLM is asked to replan      │
+│  from the changed state. In this test case, we want to..."                   │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+WARNING:crewai.llms.base_llm:Using an approximate input token count for model 'gemini-3.8-flash': assuming one token per four characters because a native token count is unavailable.
+╭─────────────────────── 🔧 Tool Execution Started (#5) ───────────────────────╮
+│                                                                              │
+│  Tool: search_research_papers                                                │
+│  Args: {'k': 6, 'query': '"autonomous" planning "LLM" Valmeekam "can LLMs    │
+│  plan" ability to generate executable plans'}                                │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────── ✅ Tool Execution Completed (#5) ──────────────────────╮
+│                                                                              │
+│  Tool Completed                                                              │
+│  Tool: search_research_papers                                                │
+│  Output: Found 6 relevant passages:                                          │
+│                                                                              │
+│  [1] Source: planning_2023 | Section: Full Text | Relevance: 0.90            │
+│      Title: On the Planning Abilities of Large Language Models - A Critical  │
+│  Investigation                                                               │
+│      "[Paper: On the Planning Abilities of Large Language Models - A         │
+│  Critical Investigation]                                                     │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]                             │
+│                                                                              │
+│  showcase) reasoning abilities of LLMs–including commonsense reasoning [33,  │
+│  27, 10], logical reasoning [31], and even ethical reasoning [16]. The       │
+│  macro-tenor of the drumbeat of these works has been suggesting that LLM’s   │
+│  are indeed capable of doing such kinds of reasoni..."                       │
+│                                                                              │
+│  [2] Source: planning_2023 | Section: Full Text | Relevance: 0.90            │
+│      Title: On the Planning Abilities of Large Language Models - A Critical  │
+│  Investigation                                                               │
+│      "[Paper: On the Planning Abilities of Large Language Models - A         │
+│  Critical Investigation]                                                     │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]                             │
+│                                                                              │
+│  Karthik Valmeekam School of Computing & AI Arizona State University,        │
+│  Tempe. kvalmeek@asu.edu arXiv:2302.06706v1 [cs.AI] 13 Feb 2023 Alberto      │
+│  Olmo School of Computing & AI Arizona State University, Tempe.              │
+│  aolmoher@asu.edu 1 Introduction ∗Author was at Arizona State Univ..."       │
+│                                                                              │
+│  [3] Source: planning_2023 | Section: Full Text | Relevance: 0.90            │
+│      Title: On the Planning Abilities of Large Language Models - A Critical  │
+│  Investigation                                                               │
+│      "[Paper: On the Planning Abilities of Large Language Models - A         │
+│  Critical Investigation]                                                     │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]                             │
+│                                                                              │
+│  especially likely because the chief power of LLMs comes from their pattern  │
+│  finding abilities than on first-principles simulations over world models.   │
+│  Compared to a planner that is guaranteed to be correct in a narrow set of   │
+│  domains, LLMs may likely be good at generatin..."                           │
+│                                                                              │
+│  [4] Source: planning_2023 | Section: Full Text | Relevance: 0.89            │
+│      Title: On the Planning Abilities of Large Language Models - A Critical  │
+│  Investigation                                                               │
+│      "[Paper: On the Planning Abilities of Large Language Models - A         │
+│  Critical Investigation]                                                     │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]                             │
+│                                                                              │
+│  held at the end of that prefix. We then change the resulting state by       │
+│  stacking the held block onto another random block which is clear and make   │
+│  the hand empty. This change is reported and the LLM is asked to replan      │
+│  from the changed state. In this test case, we want to..."                   │
+│                                                                              │
+│  [5] Source: planning_2023 | Section: Full Text | Relevance: 0.89            │
+│      Title: On the Planning Abilities of Large Language Models - A Critical  │
+│  Investigation                                                               │
+│      "[Paper: On the Planning Abilities of Large Language Models - A         │
+│  Critical Investigation]                                                     │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]                             │
+│                                                                              │
+│  where the goal specification is true. The actions may additionally be       │
+│  associated with cost, in these cases, one could also talk about optimal     │
+│  plans, i.e., a plan π is called an optimal one if no plan exists that is    │
+│  less costly than π. The above description presents on..."                   │
+│                                                                              │
+│  [6] Source: planning_2023 | Section: Full Text | Relevance: 0.89            │
+│      Title: On the Planning Abilities of Large Language Models - A Critical  │
+│  Investigation                                                               │
+│      "[Paper: On the Planning Abilities of Large Language Models - A         │
+│  Critical Investigation]                                                     │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]                             │
+│                                                                              │
+│  each action. To make the concept of action cost better fit into common      │
+│  sense domains, we can map the cost to more common concepts like the time    │
+│  taken for executing the action or the amount of money that needs to be      │
+│  spent to execute an action. In the case of each probl..."                   │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+WARNING:crewai.llms.base_llm:Using an approximate input token count for model 'gemini-3.8-flash': assuming one token per four characters because a native token count is unavailable.
+╭─────────────────────── 🔧 Tool Execution Started (#6) ───────────────────────╮
+│                                                                              │
+│  Tool: search_research_papers                                                │
+│  Args: {'query': '"planning" module "LLM-based autonomous agents"            │
+│  decomposition feedback Wang', 'k': 6}                                       │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────── ✅ Tool Execution Completed (#6) ──────────────────────╮
+│                                                                              │
+│  Tool Completed                                                              │
+│  Tool: search_research_papers                                                │
+│  Output: Found 6 relevant passages:                                          │
+│                                                                              │
+│  [1] Source: wang_2023_survey | Section: Full Text | Relevance: 0.91         │
+│      Title: A Survey on Large Language Model based Autonomous Agents         │
+│      "[Paper: A Survey on Large Language Model based Autonomous Agents]      │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,     │
+│  38, 39, 40, 41]                                                             │
+│                                                                              │
+│  , acquired through external feedback, such as search engine results. The    │
+│  next thought is influenced by the previous observations, which makes the    │
+│  generated plans more adaptive to the environment. Voyager [38] makes plans  │
+│  by incorporating three types..."                                            │
+│                                                                              │
+│  [2] Source: wang_2023_survey | Section: Full Text | Relevance: 0.90         │
+│      Title: A Survey on Large Language Model based Autonomous Agents         │
+│      "[Paper: A Survey on Large Language Model based Autonomous Agents]      │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,     │
+│  38, 39, 40, 41]                                                             │
+│                                                                              │
+│  based on its memory, and then, the evaluator generates feedback by taking   │
+│  the agent trajectory as input. In contrast to previous studies, where the   │
+│  feedback is given as a scalar Lei Wang et al. A Survey on Large Language    │
+│  Model based Autonomous Agent..."                                            │
+│                                                                              │
+│  [3] Source: wang_2023_survey | Section: Full Text | Relevance: 0.90         │
+│      Title: A Survey on Large Language Model based Autonomous Agents         │
+│      "[Paper: A Survey on Large Language Model based Autonomous Agents]      │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,     │
+│  38, 39, 40, 41]                                                             │
+│                                                                              │
+│  LLMs for each reasoning step. In RecMind [53], the authors designed a       │
+│  self-inspiring mechanism, where the discarded historical information in     │
+│  the planning process is also leveraged to derive new reasoning steps. In    │
+│  GoT [54], the authors expand the t..."                                      │
+│                                                                              │
+│  [4] Source: wang_2023_survey | Section: Full Text | Relevance: 0.90         │
+│      Title: A Survey on Large Language Model based Autonomous Agents         │
+│      "[Paper: A Survey on Large Language Model based Autonomous Agents]      │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,     │
+│  38, 39, 40, 41]                                                             │
+│                                                                              │
+│  with such human capability, which is expected to make the agent behave      │
+│  more reasonably, powerfully, and reliably. In specific, we summarize        │
+│  existing studies based on whether the agent can receive feedback in the     │
+│  planing process, which are detailed a..."                                   │
+│                                                                              │
+│  [5] Source: wang_2023_survey | Section: Full Text | Relevance: 0.89         │
+│      Title: A Survey on Large Language Model based Autonomous Agents         │
+│      "[Paper: A Survey on Large Language Model based Autonomous Agents]      │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,     │
+│  38, 39, 40, 41]                                                             │
+│                                                                              │
+│  for integrating new and previous records. For instance, in [16], the        │
+│  successful action sequences related to the same subgoal are stored in a     │
+│  list. Once the size of the list reaches N(=5), all the sequences in it are  │
+│  condensed into a unified plan sol..."                                       │
+│                                                                              │
+│  [6] Source: xi_2023_survey | Section: Full Text | Relevance: 0.89           │
+│      Title: The Rise and Potential of Large Language Model Based Agents: A   │
+│  Survey                                                                      │
+│      "[Paper: The Rise and Potential of Large Language Model Based Agents:   │
+│  A Survey]                                                                   │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,     │
+│  38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55,     │
+│  56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73,     │
+│  74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86]                         │
+│                                                                              │
+│  [253; 254]. Moreover, as tasks progress, agents can empl..."                │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+WARNING:crewai.llms.base_llm:Using an approximate input token count for model 'gemini-3.8-flash': assuming one token per four characters because a native token count is unavailable.
+╭─────────────────────── 🔧 Tool Execution Started (#7) ───────────────────────╮
+│                                                                              │
+│  Tool: search_research_papers                                                │
+│  Args: {'k': 6, 'query': 'CAMEL role-playing communicative agents inception  │
+│  prompting task decomposition cooperation'}                                  │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────── ✅ Tool Execution Completed (#7) ──────────────────────╮
+│                                                                              │
+│  Tool Completed                                                              │
+│  Tool: search_research_papers                                                │
+│  Output: Found 6 relevant passages:                                          │
+│                                                                              │
+│  [1] Source: camel_2023 | Section: Full Text | Relevance: 0.93               │
+│      Title: CAMEL: Communicative Agents for Mind Exploration of Large        │
+│  Language Model Society                                                      │
+│      "[Paper: CAMEL: Communicative Agents for Mind Exploration of Large      │
+│  Language Model Society]                                                     │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,     │
+│  38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55,     │
+│  56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73,     │
+│  74, 75, 76, 77]                                                             │
+│                                                                              │
+│  Agents. Communication between agents has been studied for a long time [76,  │
+│  77]. T..."                                                                  │
+│                                                                              │
+│  [2] Source: camel_2023 | Section: Full Text | Relevance: 0.92               │
+│      Title: CAMEL: Communicative Agents for Mind Exploration of Large        │
+│  Language Model Society                                                      │
+│      "[Paper: CAMEL: Communicative Agents for Mind Exploration of Large      │
+│  Language Model Society]                                                     │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,     │
+│  38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55,     │
+│  56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73,     │
+│  74, 75, 76, 77]                                                             │
+│                                                                              │
+│  a new instruction It+1, as shown in Equation (2). The produced instruction  │
+│  messag..."                                                                  │
+│                                                                              │
+│  [3] Source: camel_2023 | Section: Full Text | Relevance: 0.92               │
+│      Title: CAMEL: Communicative Agents for Mind Exploration of Large        │
+│  Language Model Society                                                      │
+│      "[Paper: CAMEL: Communicative Agents for Mind Exploration of Large      │
+│  Language Model Society]                                                     │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,     │
+│  38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55,     │
+│  56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73,     │
+│  74, 75, 76, 77]                                                             │
+│                                                                              │
+│  chunk of work that has proposed methods for automatic dataset creation      │
+│  [67, 57, 1..."                                                              │
+│                                                                              │
+│  [4] Source: camel_2023 | Section: Full Text | Relevance: 0.92               │
+│      Title: CAMEL: Communicative Agents for Mind Exploration of Large        │
+│  Language Model Society                                                      │
+│      "[Paper: CAMEL: Communicative Agents for Mind Exploration of Large      │
+│  Language Model Society]                                                     │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,     │
+│  38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55,     │
+│  56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73,     │
+│  74, 75, 76, 77]                                                             │
+│                                                                              │
+│  CAMEL: Communicative Agents for “Mind” Exploration of Large Language Model  │
+│  Societ..."                                                                  │
+│                                                                              │
+│  [5] Source: camel_2023 | Section: Full Text | Relevance: 0.92               │
+│      Title: CAMEL: Communicative Agents for Mind Exploration of Large        │
+│  Language Model Society                                                      │
+│      "[Paper: CAMEL: Communicative Agents for Mind Exploration of Large      │
+│  Language Model Society]                                                     │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,     │
+│  38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55,     │
+│  56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73,     │
+│  74, 75, 76, 77]                                                             │
+│                                                                              │
+│  , This paper explores the potential of building scalable techniques to      │
+│  facilitate..."                                                              │
+│                                                                              │
+│  [6] Source: camel_2023 | Section: Full Text | Relevance: 0.92               │
+│      Title: CAMEL: Communicative Agents for Mind Exploration of Large        │
+│  Language Model Society                                                      │
+│      "[Paper: CAMEL: Communicative Agents for Mind Exploration of Large      │
+│  Language Model Society]                                                     │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,     │
+│  38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55,     │
+│  56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73,     │
+│  74, 75, 76, 77]                                                             │
+│                                                                              │
+│  this task would be an AI assistant agent who is a python programmer and an  │
+│  AI use..."                                                                  │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+WARNING:crewai.llms.base_llm:Using an approximate input token count for model 'gemini-3.8-flash': assuming one token per four characters because a native token count is unavailable.
+╭─────────────────────── 🔧 Tool Execution Started (#8) ───────────────────────╮
+│                                                                              │
+│  Tool: search_research_papers                                                │
+│  Args: {'k': 6, 'query': '"role-playing" "CAMEL" "communicative agent"       │
+│  "prompt engineering" "autonomous" cooperation'}                             │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────── ✅ Tool Execution Completed (#8) ──────────────────────╮
+│                                                                              │
+│  Tool Completed                                                              │
+│  Tool: search_research_papers                                                │
+│  Output: Found 6 relevant passages:                                          │
+│                                                                              │
+│  [1] Source: camel_2023 | Section: Full Text | Relevance: 0.92               │
+│      Title: CAMEL: Communicative Agents for Mind Exploration of Large        │
+│  Language Model Society                                                      │
+│      "[Paper: CAMEL: Communicative Agents for Mind Exploration of Large      │
+│  Language Model Society]                                                     │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,     │
+│  38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55,     │
+│  56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73,     │
+│  74, 75, 76, 77]                                                             │
+│                                                                              │
+│  Agents. Communication between agents has been studied for a long time [76,  │
+│  77]. T..."                                                                  │
+│                                                                              │
+│  [2] Source: camel_2023 | Section: Full Text | Relevance: 0.92               │
+│      Title: CAMEL: Communicative Agents for Mind Exploration of Large        │
+│  Language Model Society                                                      │
+│      "[Paper: CAMEL: Communicative Agents for Mind Exploration of Large      │
+│  Language Model Society]                                                     │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,     │
+│  38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55,     │
+│  56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73,     │
+│  74, 75, 76, 77]                                                             │
+│                                                                              │
+│  , This paper explores the potential of building scalable techniques to      │
+│  facilitate..."                                                              │
+│                                                                              │
+│  [3] Source: camel_2023 | Section: Full Text | Relevance: 0.91               │
+│      Title: CAMEL: Communicative Agents for Mind Exploration of Large        │
+│  Language Model Society                                                      │
+│      "[Paper: CAMEL: Communicative Agents for Mind Exploration of Large      │
+│  Language Model Society]                                                     │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,     │
+│  38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55,     │
+│  56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73,     │
+│  74, 75, 76, 77]                                                             │
+│                                                                              │
+│  CAMEL: Communicative Agents for “Mind” Exploration of Large Language Model  │
+│  Societ..."                                                                  │
+│                                                                              │
+│  [4] Source: camel_2023 | Section: Full Text | Relevance: 0.91               │
+│      Title: CAMEL: Communicative Agents for Mind Exploration of Large        │
+│  Language Model Society                                                      │
+│      "[Paper: CAMEL: Communicative Agents for Mind Exploration of Large      │
+│  Language Model Society]                                                     │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,     │
+│  38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55,     │
+│  56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73,     │
+│  74, 75, 76, 77]                                                             │
+│                                                                              │
+│  chunk of work that has proposed methods for automatic dataset creation      │
+│  [67, 57, 1..."                                                              │
+│                                                                              │
+│  [5] Source: camel_2023 | Section: Full Text | Relevance: 0.91               │
+│      Title: CAMEL: Communicative Agents for Mind Exploration of Large        │
+│  Language Model Society                                                      │
+│      "[Paper: CAMEL: Communicative Agents for Mind Exploration of Large      │
+│  Language Model Society]                                                     │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,     │
+│  38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55,     │
+│  56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73,     │
+│  74, 75, 76, 77]                                                             │
+│                                                                              │
+│  and make sure the problems are <TOPIC> problems. Solution Generation        │
+│  Prompt: You ..."                                                            │
+│                                                                              │
+│  [6] Source: camel_2023 | Section: Full Text | Relevance: 0.91               │
+│      Title: CAMEL: Communicative Agents for Mind Exploration of Large        │
+│  Language Model Society                                                      │
+│      "[Paper: CAMEL: Communicative Agents for Mind Exploration of Large      │
+│  Language Model Society]                                                     │
+│  [Section: Full Text]                                                        │
+│  [Pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,  │
+│  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,     │
+│  38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55,     │
+│  56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73,     │
+│  74, 75, 76, 77]                                                             │
+│                                                                              │
+│  a new instruction It+1, as shown in Equation (2). The produced instruction  │
+│  messag..."                                                                  │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+WARNING:crewai.llms.base_llm:Using an approximate input token count for model 'gemini-3.8-flash': assuming one token per four characters because a native token count is unavailable.
+ERROR:root:Google Gemini API call failed: Server disconnected without sending a response.
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: Server disconnected without sending a response.[0m
+╭──────────────────────────────── ❌ LLM Error ────────────────────────────────╮
+│                                                                              │
+│  LLM Call Failed                                                             │
+│  Error: Google Gemini API call failed: Server disconnected without sending   │
+│  a response.                                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+ERROR:crewai.flow.runtime:Error executing listener call_llm_native_tools: Server disconnected without sending a response.
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: Server disconnected without sending a response.[0m
+╭────────────────────────────── 🤖 Agent Started ──────────────────────────────╮
+│                                                                              │
+│  Agent: Corpus Investigator                                                  │
+│                                                                              │
+│  Task: Research question: "What are the main approaches to building AI       │
+│  agents that can reason and act?"                                            │
+│                                                                              │
+│  Using the search plan from the previous task, search the paper corpus with  │
+│  the 'Search Research Papers' tool.                                          │
+│                                                                              │
+│  Rules:                                                                      │
+│  - Run at least one search per sub-question, and rephrase and re-search      │
+│  when the first results are weak or off-topic. Before each search state in   │
+│  a sentence what you still need and why; after each result state what you    │
+│  learned and what to search next.                                            │
+│  - Use k=5 to k=8 per search.                                                │
+│  - Collect 8-12 distinct, relevant passages in total, spread across at       │
+│  least 5 different papers where the corpus allows.                           │
+│  - Record each passage exactly as the tool returned it: the paper ID         │
+│  printed after 'Source:', the section, and a short verbatim excerpt (1-3     │
+│  sentences). Never invent, paraphrase into a quote, or add a source the      │
+│  tool did not return.                                                        │
+│  - If the corpus has no good evidence for a sub-question, say so explicitly  │
+│  instead of filling the gap.                                                 │
+│                                                                              │
+│  Valid paper IDs (for checking only; cite only what the tool returned):      │
+│  - Wooldridge & Jennings (1995) | ID: wooldridge_1995 | Title: Intelligent   │
+│  Agents: Theory and Practice                                                 │
+│  - Wang et al. (2023) | ID: wang_2023_survey | Title: A Survey on Large      │
+│  Language Model based Autonomous Agents                                      │
+│  - Xi et al. (2023) | ID: xi_2023_survey | Title: The Rise and Potential of  │
+│  Large Language Model Based Agents: A Survey                                 │
+│  - Yao et al. (2023) | ID: react_2023 | Title: ReAct: Synergizing Reasoning  │
+│  and Acting in Language Models                                               │
+│  - Wei et al. (2022) | ID: cot_2022 | Title: Chain-of-Thought Prompting      │
+│  Elicits Reasoning in Large Language Models                                  │
+│  - Yao et al. (2023) | ID: tot_2023 | Title: Tree of Thoughts: Deliberate    │
+│  Problem Solving with Large Language Models                                  │
+│  - Shinn et al. (2023) | ID: reflexion_2023 | Title: Reflexion: Language     │
+│  Agents with Verbal Reinforcement Learning                                   │
+│  - Li et al. (2023) | ID: camel_2023 | Title: CAMEL: Communicative Agents    │
+│  for Mind Exploration of Large Language Model Society                        │
+│  - Park et al. (2023) | ID: generative_agents_2023 | Title: Generative       │
+│  Agents: Interactive Simulacra of Human Behavior                             │
+│  - Wu et al. (2023) | ID: autogen_2023 | Title: AutoGen: Enabling Next-Gen   │
+│  LLM Applications via Multi-Agent Conversation                               │
+│  - Schick et al. (2023) | ID: toolformer_2023 | Title: Toolformer: Language  │
+│  Models Can Teach Themselves to Use Tools                                    │
+│  - Lewis et al. (2020) | ID: rag_2020 | Title: Retrieval-Augmented           │
+│  Generation for Knowledge-Intensive NLP Tasks                                │
+│  - Gao et al. (2023) | ID: rag_survey_2023 | Title: Retrieval-Augmented      │
+│  Generation for Large Language Models: A Survey                              │
+│  - Valmeekam et al. (2023) | ID: planning_2023 | Title: On the Planning      │
+│  Abilities of Large Language Models - A Critical Investigation               │
+│  - Bai et al. (2022) | ID: constitutional_ai_2022 | Title: Constitutional    │
+│  AI: Harmlessness from AI Feedback                                           │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+WARNING:crewai.llms.base_llm:Using an approximate input token count for model 'gemini-3.8-flash': assuming one token per four characters because a native token count is unavailable.
+ERROR:root:Google Gemini API error: 503 - This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}[0m
+╭──────────────────────────────── ❌ LLM Error ────────────────────────────────╮
+│                                                                              │
+│  LLM Call Failed                                                             │
+│  Error: Google Gemini API error: 503 - This model is currently experiencing  │
+│  high demand. Spikes in demand are usually temporary. Please try again       │
+│  later.                                                                      │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+ERROR:crewai.flow.runtime:Error executing listener call_llm_native_tools: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}[0m
+╭────────────────────────────── 🤖 Agent Started ──────────────────────────────╮
+│                                                                              │
+│  Agent: Corpus Investigator                                                  │
+│                                                                              │
+│  Task: Research question: "What are the main approaches to building AI       │
+│  agents that can reason and act?"                                            │
+│                                                                              │
+│  Using the search plan from the previous task, search the paper corpus with  │
+│  the 'Search Research Papers' tool.                                          │
+│                                                                              │
+│  Rules:                                                                      │
+│  - Run at least one search per sub-question, and rephrase and re-search      │
+│  when the first results are weak or off-topic. Before each search state in   │
+│  a sentence what you still need and why; after each result state what you    │
+│  learned and what to search next.                                            │
+│  - Use k=5 to k=8 per search.                                                │
+│  - Collect 8-12 distinct, relevant passages in total, spread across at       │
+│  least 5 different papers where the corpus allows.                           │
+│  - Record each passage exactly as the tool returned it: the paper ID         │
+│  printed after 'Source:', the section, and a short verbatim excerpt (1-3     │
+│  sentences). Never invent, paraphrase into a quote, or add a source the      │
+│  tool did not return.                                                        │
+│  - If the corpus has no good evidence for a sub-question, say so explicitly  │
+│  instead of filling the gap.                                                 │
+│                                                                              │
+│  Valid paper IDs (for checking only; cite only what the tool returned):      │
+│  - Wooldridge & Jennings (1995) | ID: wooldridge_1995 | Title: Intelligent   │
+│  Agents: Theory and Practice                                                 │
+│  - Wang et al. (2023) | ID: wang_2023_survey | Title: A Survey on Large      │
+│  Language Model based Autonomous Agents                                      │
+│  - Xi et al. (2023) | ID: xi_2023_survey | Title: The Rise and Potential of  │
+│  Large Language Model Based Agents: A Survey                                 │
+│  - Yao et al. (2023) | ID: react_2023 | Title: ReAct: Synergizing Reasoning  │
+│  and Acting in Language Models                                               │
+│  - Wei et al. (2022) | ID: cot_2022 | Title: Chain-of-Thought Prompting      │
+│  Elicits Reasoning in Large Language Models                                  │
+│  - Yao et al. (2023) | ID: tot_2023 | Title: Tree of Thoughts: Deliberate    │
+│  Problem Solving with Large Language Models                                  │
+│  - Shinn et al. (2023) | ID: reflexion_2023 | Title: Reflexion: Language     │
+│  Agents with Verbal Reinforcement Learning                                   │
+│  - Li et al. (2023) | ID: camel_2023 | Title: CAMEL: Communicative Agents    │
+│  for Mind Exploration of Large Language Model Society                        │
+│  - Park et al. (2023) | ID: generative_agents_2023 | Title: Generative       │
+│  Agents: Interactive Simulacra of Human Behavior                             │
+│  - Wu et al. (2023) | ID: autogen_2023 | Title: AutoGen: Enabling Next-Gen   │
+│  LLM Applications via Multi-Agent Conversation                               │
+│  - Schick et al. (2023) | ID: toolformer_2023 | Title: Toolformer: Language  │
+│  Models Can Teach Themselves to Use Tools                                    │
+│  - Lewis et al. (2020) | ID: rag_2020 | Title: Retrieval-Augmented           │
+│  Generation for Knowledge-Intensive NLP Tasks                                │
+│  - Gao et al. (2023) | ID: rag_survey_2023 | Title: Retrieval-Augmented      │
+│  Generation for Large Language Models: A Survey                              │
+│  - Valmeekam et al. (2023) | ID: planning_2023 | Title: On the Planning      │
+│  Abilities of Large Language Models - A Critical Investigation               │
+│  - Bai et al. (2022) | ID: constitutional_ai_2022 | Title: Constitutional    │
+│  AI: Harmlessness from AI Feedback                                           │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+WARNING:crewai.llms.base_llm:Using an approximate input token count for model 'gemini-3.8-flash': assuming one token per four characters because a native token count is unavailable.
+ERROR:root:Google Gemini API error: 503 - This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}[0m
+╭──────────────────────────────── ❌ LLM Error ────────────────────────────────╮
+│                                                                              │
+│  LLM Call Failed                                                             │
+│  Error: Google Gemini API error: 503 - This model is currently experiencing  │
+│  high demand. Spikes in demand are usually temporary. Please try again       │
+│  later.                                                                      │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+ERROR:crewai.flow.runtime:Error executing listener call_llm_native_tools: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}[0m
+╭────────────────────────────── 📋 Task Failure ───────────────────────────────╮
+│                                                                              │
+│  Task Failed                                                                 │
+│  Name: Research question: "What are the main approaches to building AI       │
+│  agents that can reason and act?"                                            │
+│                                                                              │
+│  Using the search plan from the previous task, search the paper corpus with  │
+│  the 'Search Research Papers' tool.                                          │
+│                                                                              │
+│  Rules:                                                                      │
+│  - Run at least one search per sub-question, and rephrase and re-search      │
+│  when the first results are weak or off-topic. Before each search state in   │
+│  a sentence what you still need and why; after each result state what you    │
+│  learned and what to search next.                                            │
+│  - Use k=5 to k=8 per search.                                                │
+│  - Collect 8-12 distinct, relevant passages in total, spread across at       │
+│  least 5 different papers where the corpus allows.                           │
+│  - Record each passage exactly as the tool returned it: the paper ID         │
+│  printed after 'Source:', the section, and a short verbatim excerpt (1-3     │
+│  sentences). Never invent, paraphrase into a quote, or add a source the      │
+│  tool did not return.                                                        │
+│  - If the corpus has no good evidence for a sub-question, say so explicitly  │
+│  instead of filling the gap.                                                 │
+│                                                                              │
+│  Valid paper IDs (for checking only; cite only what the tool returned):      │
+│  - Wooldridge & Jennings (1995) | ID: wooldridge_1995 | Title: Intelligent   │
+│  Agents: Theory and Practice                                                 │
+│  - Wang et al. (2023) | ID: wang_2023_survey | Title: A Survey on Large      │
+│  Language Model based Autonomous Agents                                      │
+│  - Xi et al. (2023) | ID: xi_2023_survey | Title: The Rise and Potential of  │
+│  Large Language Model Based Agents: A Survey                                 │
+│  - Yao et al. (2023) | ID: react_2023 | Title: ReAct: Synergizing Reasoning  │
+│  and Acting in Language Models                                               │
+│  - Wei et al. (2022) | ID: cot_2022 | Title: Chain-of-Thought Prompting      │
+│  Elicits Reasoning in Large Language Models                                  │
+│  - Yao et al. (2023) | ID: tot_2023 | Title: Tree of Thoughts: Deliberate    │
+│  Problem Solving with Large Language Models                                  │
+│  - Shinn et al. (2023) | ID: reflexion_2023 | Title: Reflexion: Language     │
+│  Agents with Verbal Reinforcement Learning                                   │
+│  - Li et al. (2023) | ID: camel_2023 | Title: CAMEL: Communicative Agents    │
+│  for Mind Exploration of Large Language Model Society                        │
+│  - Park et al. (2023) | ID: generative_agents_2023 | Title: Generative       │
+│  Agents: Interactive Simulacra of Human Behavior                             │
+│  - Wu et al. (2023) | ID: autogen_2023 | Title: AutoGen: Enabling Next-Gen   │
+│  LLM Applications via Multi-Agent Conversation                               │
+│  - Schick et al. (2023) | ID: toolformer_2023 | Title: Toolformer: Language  │
+│  Models Can Teach Themselves to Use Tools                                    │
+│  - Lewis et al. (2020) | ID: rag_2020 | Title: Retrieval-Augmented           │
+│  Generation for Knowledge-Intensive NLP Tasks                                │
+│  - Gao et al. (2023) | ID: rag_survey_2023 | Title: Retrieval-Augmented      │
+│  Generation for Large Language Models: A Survey                              │
+│  - Valmeekam et al. (2023) | ID: planning_2023 | Title: On the Planning      │
+│  Abilities of Large Language Models - A Critical Investigation               │
+│  - Bai et al. (2022) | ID: constitutional_ai_2022 | Title: Constitutional    │
+│  AI: Harmlessness from AI Feedback                                           │
+│  Agent: Corpus Investigator                                                  │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────── Crew Failure ────────────────────────────────╮
+│                                                                              │
+│  Crew Execution Failed                                                       │
+│  Name: crew                                                                  │
+│  ID: dd6dc47c-c998-418a-a05d-b126050d351a                                    │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+
+Error running research crew: 503 UNAVAILABLE. {'error': {'code': 503, 'message':
+'This model is currently experiencing high demand. Spikes in demand are usually 
+temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+Check that your environment is set up correctly.
+Run 'python scripts/verify_setup.py' to diagnose issues.
